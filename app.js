@@ -27,6 +27,18 @@
       a.append(img, label);
       frag.append(a);
     }
+
+    // pad grid so a single member doesn't look lonely
+    const ghosts = Math.max(0, 10 - members.length);
+    for (let i = 0; i < ghosts; i++) {
+      const g = document.createElement("a");
+      g.className = "member-ghost";
+      g.href = "#join";
+      g.textContent = "+";
+      g.title = "this could be you";
+      frag.append(g);
+    }
+
     grid.replaceChildren(frag);
   } catch (e) {
     grid.textContent = "failed to load members.json: " + e.message;

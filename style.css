@@ -21,6 +21,17 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* film grain overlay */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
 a { color: inherit; }
 a:hover { background: var(--fg); color: var(--bg); text-decoration: none; }
 
@@ -68,6 +79,16 @@ a:hover { background: var(--fg); color: var(--bg); text-decoration: none; }
 .nnn-mark .n:nth-child(2) { background: var(--acc-2); color: var(--bg); margin-left: calc(-1 * var(--border)); }
 .nnn-mark .n:nth-child(3) { background: var(--acc-3); color: var(--bg); margin-left: calc(-1 * var(--border)); }
 
+@media (prefers-reduced-motion: no-preference) {
+  .nnn-mark .n { animation: nslam 0.6s cubic-bezier(.7,-0.5,.3,1.5) backwards; }
+  .nnn-mark .n:nth-child(2) { animation-delay: 0.12s; }
+  .nnn-mark .n:nth-child(3) { animation-delay: 0.24s; }
+}
+@keyframes nslam {
+  from { transform: translateY(-120%) rotate(-8deg); opacity: 0; }
+  to   { transform: none; opacity: 1; }
+}
+
 .hero-title {
   font-size: clamp(2rem, 6vw, 5rem);
   font-weight: 900;
@@ -97,12 +118,31 @@ a:hover { background: var(--fg); color: var(--bg); text-decoration: none; }
 }
 .hero-links a + a { margin-left: calc(-1 * var(--border)); }
 
+/* ---------- MARQUEE ---------- */
+.marquee {
+  border-top: var(--border) solid var(--fg);
+  border-bottom: var(--border) solid var(--fg);
+  overflow: hidden;
+  background: var(--fg);
+  color: var(--bg);
+  font-weight: 900;
+  letter-spacing: 0.3em;
+  font-size: 1.1rem;
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+.marquee span { padding: 0.8rem 2rem; white-space: nowrap; }
+.marquee span:nth-child(odd) { color: var(--acc-2); }
+@keyframes scroll { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
+
 /* ---------- STACK SLABS ---------- */
 .stack {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  max-width: var(--maxw);
-  margin: 0 auto;
   border-bottom: var(--border) solid var(--fg);
 }
 .slab {
@@ -143,9 +183,14 @@ a:hover { background: var(--fg); color: var(--bg); text-decoration: none; }
   align-self: flex-start;
 }
 
-.slab-nixos    { border-top: 12px solid var(--acc-1); }
-.slab-niri     { border-top: 12px solid var(--acc-2); }
-.slab-noctalia { border-top: 12px solid var(--acc-3); }
+.slab-nixos    { --acc: var(--acc-1); }
+.slab-niri     { --acc: var(--acc-2); }
+.slab-noctalia { --acc: var(--acc-3); }
+.slab { border-top: 12px solid var(--acc); }
+.slab h2 { text-decoration: underline; text-decoration-color: var(--acc); text-decoration-thickness: 0.15em; text-underline-offset: 0.1em; }
+.slab:hover { background: var(--acc); color: var(--bg); }
+.slab:hover .slab-index { opacity: 0.3; }
+.slab:hover h2 { text-decoration-color: var(--bg); }
 
 /* ---------- MANIFESTO ---------- */
 .manifesto {
@@ -203,11 +248,26 @@ a:hover { background: var(--fg); color: var(--bg); text-decoration: none; }
 .member-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap: var(--border);
-  background: var(--fg);
-  border: var(--border) solid var(--fg);
+  gap: 0;
   margin-top: 2rem;
+  border-top: var(--border) solid var(--fg);
+  border-left: var(--border) solid var(--fg);
 }
+.member-grid > * {
+  border-right: var(--border) solid var(--fg);
+  border-bottom: var(--border) solid var(--fg);
+}
+.member-ghost {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 2rem;
+  opacity: 0.2;
+  background: repeating-linear-gradient(45deg, transparent 0 8px, #222 8px 10px);
+}
+.member-ghost:hover { opacity: 1; background: var(--acc-2); color: var(--bg); }
 .member {
   background: var(--bg);
   aspect-ratio: 1;
