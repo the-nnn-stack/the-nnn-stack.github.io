@@ -16,6 +16,9 @@ zero framework. Deploys straight to GitHub Pages.
 
 3. PR
 
+`dotfiles` is optional. If omitted, your avatar links to your GitHub
+profile instead.
+
 Your avatar is pulled from `github.com/<handle>.png`. Keep entries
 alphabetical by handle to reduce merge conflicts.
 
