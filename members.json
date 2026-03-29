@@ -1,4 +1,5 @@
 [
   { "github": "Mic92", "dotfiles": "https://github.com/Mic92/dotfiles" },
-  { "github": "oddlama", "dotfiles": "https://github.com/oddlama/nix-config" }
+  { "github": "oddlama", "dotfiles": "https://github.com/oddlama/nix-config" },
+  { "github": "Keyruu", "dotfiles": "https://github.com/Keyruu/shinyflakes" }
 ]
