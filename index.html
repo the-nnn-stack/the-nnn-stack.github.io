@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NNN STACK — NixOS · Niri · Noctalia</title>
+<meta name="description" content="The NNN Stack: NixOS + Niri + Noctalia-shell. Declarative. Scrollable. Beautiful.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>❄</text></svg>">
+</head>
+<body>
+
+<header class="hero">
+  <div class="nnn-mark">
+    <span class="n">N</span><span class="n">N</span><span class="n">N</span>
+  </div>
+  <h1 class="hero-title">
+    <span class="strike">THE</span> STACK
+  </h1>
+  <p class="hero-sub">
+    THREE LETTERS. ZERO COMPROMISE.
+  </p>
+  <nav class="hero-links">
+    <a href="#stack">STACK</a>
+    <a href="#members">MEMBERS</a>
+    <a href="#join">JOIN</a>
+    <a href="https://github.com/nnn-stack/nnn-stack">SOURCE↗</a>
+  </nav>
+</header>
+
+<section id="stack" class="stack">
+  <article class="slab slab-nixos">
+    <div class="slab-index">01</div>
+    <h2>NIXOS</h2>
+    <p class="slab-tag">THE FOUNDATION</p>
+    <p>Your entire system as code. Reproducible down to the last byte.
+       Roll back when you break it. You <em>will</em> break it. That's fine.</p>
+    <a class="slab-link" href="https://nixos.org">nixos.org →</a>
+  </article>
+
+  <article class="slab slab-niri">
+    <div class="slab-index">02</div>
+    <h2>NIRI</h2>
+    <p class="slab-tag">THE COMPOSITOR</p>
+    <p>Scrollable tiling on Wayland. Windows live on an infinite strip.
+       No master/stack dogma. No floating chaos. Just scroll.</p>
+    <a class="slab-link" href="https://github.com/YaLTeR/niri">github/YaLTeR/niri →</a>
+  </article>
+
+  <article class="slab slab-noctalia">
+    <div class="slab-index">03</div>
+    <h2>NOCTALIA</h2>
+    <p class="slab-tag">THE SHELL</p>
+    <p>A Quickshell-based desktop shell that doesn't look like a hackjob.
+       Bar, launcher, notifications, lockscreen. Cohesive. Dark. Done.</p>
+    <a class="slab-link" href="https://github.com/noctalia-dev/noctalia-shell">github/noctalia-dev →</a>
+  </article>
+</section>
+
+<section class="manifesto">
+  <h2 class="manifesto-title">WHY</h2>
+  <div class="manifesto-grid">
+    <div><b>DECLARATIVE</b><br>One flake. Whole desktop. <code>nixos-rebuild switch</code> and walk away.</div>
+    <div><b>SCROLLABLE</b><br>Stop cramming windows into a grid. Your monitor is a viewport, not a prison.</div>
+    <div><b>COHESIVE</b><br>Noctalia ties it together so it looks intentional, not like three configs in a trenchcoat.</div>
+    <div><b>REPRODUCIBLE</b><br>Your rice is a git repo. Clone it on new hardware, boot the same desktop.</div>
+  </div>
+</section>
+
+<section id="members" class="members">
+  <h2 class="members-title">
+    RUNNING THE STACK
+    <span id="member-count" class="count"></span>
+  </h2>
+  <p class="members-sub">Humans with taste. Click an avatar for their dotfiles.</p>
+  <div id="member-grid" class="member-grid">
+    <noscript>Enable JS or look at <a href="members.json">members.json</a>.</noscript>
+  </div>
+</section>
+
+<section id="join" class="join">
+  <h2>ADD YOURSELF</h2>
+  <ol class="join-steps">
+    <li>Fork <a href="https://github.com/nnn-stack/nnn-stack">the repo</a>.</li>
+    <li>Append yourself to <code>members.json</code>:
+<pre>{
+  "github": "yourhandle",
+  "dotfiles": "https://github.com/yourhandle/dotfiles"
+}</pre>
+    </li>
+    <li>Open a PR. That's it.</li>
+  </ol>
+  <p class="join-note">Avatar is pulled straight from GitHub. No uploads, no CDN, no nonsense.</p>
+</section>
+
+<footer>
+  <p>NNN-STACK · NO FRAMEWORK · NO BUILD STEP · NO APOLOGIES</p>
+  <p class="tiny">Not affiliated with NixOS, Niri, or Noctalia. Just fans with a domain.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
