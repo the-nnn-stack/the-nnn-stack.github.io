@@ -3,5 +3,6 @@
   { "github": "oddlama", "dotfiles": "https://github.com/oddlama/nix-config" },
   { "github": "Keyruu", "dotfiles": "https://github.com/Keyruu/shinyflakes" },
   { "github": "rytswd", "dotfiles": "https://github.com/rytswd/nix-config" },
-  { "github": "brianmcgee" }
+  { "github": "brianmcgee" },
+  { "github": "phaer" }
 ]
