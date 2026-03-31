@@ -4,5 +4,6 @@
   { "github": "Keyruu", "dotfiles": "https://github.com/Keyruu/shinyflakes" },
   { "github": "rytswd", "dotfiles": "https://github.com/rytswd/nix-config" },
   { "github": "brianmcgee" },
-  { "github": "phaer" }
+  { "github": "phaer" },
+  { "github": "Scrumplex", "dotfiles": "https://github.com/Scrumplex/flake" }
 ]
