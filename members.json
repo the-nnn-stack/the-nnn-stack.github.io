@@ -1,11 +1,12 @@
 [
+  { "github": "brianmcgee" },
+  { "github": "crayonnova", "dotfiles": "https://github.com/crayonnova/dotfiles" },
+  { "github": "Keyruu", "dotfiles": "https://github.com/Keyruu/shinyflakes" },
   { "github": "matejc", "dotfiles": "https://github.com/matejc/helper_scripts" },
   { "github": "Mic92", "dotfiles": "https://github.com/Mic92/dotfiles" },
   { "github": "oddlama", "dotfiles": "https://github.com/oddlama/nix-config" },
-  { "github": "Keyruu", "dotfiles": "https://github.com/Keyruu/shinyflakes" },
-  { "github": "rytswd", "dotfiles": "https://github.com/rytswd/nix-config" },
-  { "github": "brianmcgee" },
   { "github": "phaer" },
-  { "github": "Scrumplex", "dotfiles": "https://github.com/Scrumplex/flake" },
-  { "github": "pogoba", "dotfiles": "https://github.com/pogoba/dotfiles" }
+  { "github": "pogoba", "dotfiles": "https://github.com/pogoba/dotfiles" },
+  { "github": "rytswd", "dotfiles": "https://github.com/rytswd/nix-config" },
+  { "github": "Scrumplex", "dotfiles": "https://github.com/Scrumplex/flake" }
 ]
