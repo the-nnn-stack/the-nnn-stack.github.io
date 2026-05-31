@@ -1,4 +1,5 @@
 [
+  { "github": "bpavlo", "dotfiles": "https://github.com/bpavlo/nix-config" },
   { "github": "brianmcgee" },
   { "github": "crayonnova", "dotfiles": "https://github.com/crayonnova/dotfiles" },
   { "github": "ferguscollins" },
