@@ -7,6 +7,7 @@
   { "github": "Keyruu", "dotfiles": "https://github.com/Keyruu/shinyflakes" },
   { "github": "matejc", "dotfiles": "https://github.com/matejc/helper_scripts" },
   { "github": "Mic92", "dotfiles": "https://github.com/Mic92/dotfiles" },
+  { "github": "NikSneMC", "dotfiles": "https://codeberg.org/NikSne/NikSOS" },
   { "github": "oddlama", "dotfiles": "https://github.com/oddlama/nix-config" },
   { "github": "phaer" },
   { "github": "pogoba", "dotfiles": "https://github.com/pogoba/dotfiles" },
