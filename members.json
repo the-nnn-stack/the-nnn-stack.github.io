@@ -13,5 +13,6 @@
   { "github": "rytswd", "dotfiles": "https://github.com/rytswd/nix-config" },
   { "github": "Scrumplex", "dotfiles": "https://github.com/Scrumplex/flake" },
   { "github": "lukasz-sz96", "dotfiles": "https://github.com/lukasz-sz96/nixos-config" },
-  { "github": "sroberts", "dotfiles": "https://github.com/sroberts/nixos-setup" }
+  { "github": "sroberts", "dotfiles": "https://github.com/sroberts/nixos-setup" },
+  { "github": "martyTF", "dotfiles": "https://git.marty.tf/marty/config.nix" }
 ]
