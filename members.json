@@ -3,6 +3,7 @@
   { "github": "bpavlo", "dotfiles": "https://github.com/bpavlo/nix-config" },
   { "github": "brianmcgee" },
   { "github": "crayonnova", "dotfiles": "https://github.com/crayonnova/dotfiles" },
+  { "github": "descryx", "dotfiles": "https://github.com/descryx/public-nix-config" },
   { "github": "farlig", "dotfiles": "https://github.com/farlig/nixos-config" },
   { "github": "ferguscollins" },
   { "github": "floatdrop", "dotfiles": "https://github.com/floatdrop/nnn-starter" },
