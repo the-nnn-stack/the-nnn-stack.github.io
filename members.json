@@ -26,4 +26,5 @@
   { "github": "0xSylvester", "dotfiles": "https://github.com/0xSylvester/nixos-config"},
   { "github": "tuxy", "dotfiles": "https://github.com/tuxy/nixos" },
   { "github": "kagurazakei", "dotfiles": "https://github.com/kagurazakei/Apostle" }
+  { "github": "lIPainlessIl", "dotfiles": "https://github.com/yourhandle/nixos-config" }
 ]
