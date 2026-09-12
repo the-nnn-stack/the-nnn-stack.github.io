@@ -27,6 +27,8 @@
   { "github": "sroberts", "dotfiles": "https://github.com/sroberts/nixos-setup" },
   { "github": "0xSylvester", "dotfiles": "https://github.com/0xSylvester/nixos-config"},
   { "github": "tuxy", "dotfiles": "https://github.com/tuxy/nixos" },
+  { "github": "kagurazakei", "dotfiles": "https://github.com/kagurazakei/Apostle" },
+  { "github": "betafuTX", "dotfiles": "https://github.com/betafutx/nixos-config" }
   { "github": "Tomasinjo", "dotfiles": "https://github.com/Tomasinjo/nixos-config" },
   { "github": "kagurazakei", "dotfiles": "https://github.com/kagurazakei/Apostle" },
   { "github": "zax71", "dotfiles": "https://github.com/zax71/nixos" }
