@@ -8,6 +8,7 @@
   { "github": "floatdrop", "dotfiles": "https://github.com/floatdrop/nnn-starter" },
   { "github": "fosskar", "dotfiles": "https://github.com/fosskar/nixfiles" },
   { "github": "jeffydc", "dotfiles": "https://tangled.org/jeffydc.xyz/nixfra" },
+  { "github": "joinemm", "dotfiles": "https://github.com/joinemm/nix-infra" },
   { "github": "Keyruu", "dotfiles": "https://github.com/Keyruu/shinyflakes" },
   { "github": "linusammon", "dotfiles": "https://github.com/linusammon/nixos-config" },  
   { "github": "luvcie", "dotfiles": "https://github.com/luvcie/dotnixes" },
