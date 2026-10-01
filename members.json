@@ -24,6 +24,7 @@
   { "github": "Scrumplex", "dotfiles": "https://github.com/Scrumplex/flake" },
   { "github": "spitfire05", "dotfiles": "https://github.com/spitfire05/nixos-dotfiles" },
   { "github": "lukasz-sz96", "dotfiles": "https://github.com/lukasz-sz96/nixos-config" },
+  { "github": "srid", "dotfiles": "https://github.com/srid/nixos-config" }
   { "github": "sroberts", "dotfiles": "https://github.com/sroberts/nixos-setup" },
   { "github": "0xSylvester", "dotfiles": "https://github.com/0xSylvester/nixos-config"},
   { "github": "tuxy", "dotfiles": "https://github.com/tuxy/nixos" },
