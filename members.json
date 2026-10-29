@@ -30,5 +30,6 @@
   { "github": "tuxy", "dotfiles": "https://github.com/tuxy/nixos" },
   { "github": "Tomasinjo", "dotfiles": "https://github.com/Tomasinjo/nixos-config" },
   { "github": "kagurazakei", "dotfiles": "https://github.com/kagurazakei/Apostle" },
-  { "github": "zax71", "dotfiles": "https://github.com/zax71/nixos" }
+  { "github": "zax71", "dotfiles": "https://github.com/zax71/nixos" },
+  { "github": "swinchen", "dotfiles": "https://github.com/swinchen/nixos-config" }
 ]
