@@ -15,6 +15,7 @@
   { "github": "martyTF", "dotfiles": "https://git.marty.tf/marty/config.nix" },
   { "github": "matejc", "dotfiles": "https://github.com/matejc/helper_scripts" },
   { "github": "Mic92", "dotfiles": "https://github.com/Mic92/dotfiles" },
+  { "github": "Mohamed-Badry", "dotfiles": "https://github.com/Mohamed-Badry/nixos-dotfiles" },
   { "github": "NikSneMC", "dotfiles": "https://codeberg.org/NikSne/NikSOS" },
   { "github": "notyuris", "dotfiles": "https://git.nokopia.com/yuris/nixos-config" },
   { "github": "oddlama", "dotfiles": "https://github.com/oddlama/nix-config" },
