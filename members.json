@@ -3,6 +3,7 @@
   { "github": "bpavlo", "dotfiles": "https://github.com/bpavlo/nix-config" },
   { "github": "brianmcgee" },
   { "github": "crayonnova", "dotfiles": "https://github.com/crayonnova/dotfiles" },
+  { "github": "drtheodor", "dotfiles": "https://codeberg.org/drtheo/nixos-surface-laptop" },
   { "github": "farlig", "dotfiles": "https://github.com/farlig/nixos-config" },
   { "github": "ferguscollins" },
   { "github": "floatdrop", "dotfiles": "https://github.com/floatdrop/nnn-starter" },
