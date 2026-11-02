@@ -3,6 +3,7 @@
   { "github": "bpavlo", "dotfiles": "https://github.com/bpavlo/nix-config" },
   { "github": "brianmcgee" },
   { "github": "crayonnova", "dotfiles": "https://github.com/crayonnova/dotfiles" },
+  { "github": "drtheodor", "dotfiles": "https://codeberg.org/drtheo/nixos-surface-laptop" },
   { "github": "farlig", "dotfiles": "https://github.com/farlig/nixos-config" },
   { "github": "ferguscollins" },
   { "github": "floatdrop", "dotfiles": "https://github.com/floatdrop/nnn-starter" },
@@ -31,6 +32,5 @@
   { "github": "Tomasinjo", "dotfiles": "https://github.com/Tomasinjo/nixos-config" },
   { "github": "kagurazakei", "dotfiles": "https://github.com/kagurazakei/Apostle" },
   { "github": "zax71", "dotfiles": "https://github.com/zax71/nixos" },
-  { "github": "swinchen", "dotfiles": "https://github.com/swinchen/nixos-config" },
-  { "github": "drtheodor", "dotfiles": "https://codeberg.org/drtheo/nixos-surface-laptop" }
+  { "github": "swinchen", "dotfiles": "https://github.com/swinchen/nixos-config" }
 ]
